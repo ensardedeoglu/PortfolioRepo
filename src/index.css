@@ -1,5 +1,207 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+@media only screen and (min-width: 400px) {
+  *{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    
+  }
+
+  .img{
+    background-color: thistle;
+    position: relative; 
+    width: 100%; /* for IE 6 */
+  }
+ #h2 { 
+   position: absolute; 
+   top: 100px; 
+   left: 0; 
+   width: 100%; 
+   color: rgb(253, 247, 247);
+   font-size: 10ex;
+ }
+
+ #h2 span { 
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px; 
+}
+#info{
+  background-color: teal);
+   top: 600px; 
+   left: 0; 
+   width: 100%; 
+   color: rgb(27, 26, 26);
+   font-family:'Franklin Gothic Medium';
+   font-size: 10ex;
+}
+
+#links{
+  position: absolute; 
+   top: 400px; 
+   width: 100%; 
+   font-size: 10ex;
+   margin-bottom: 1ex;
+}
+
+ #head{
+   text-align: center;
+   font-size: 100px;
+   color:orange;
+ }
+ #nav{
+   font-family:'Franklin Gothic Medium';
+  background-color: teal;
+   width: 100%; 
+   color:rgb(246, 246, 250);
+   
+ }
+ #nav:hover{
+   background-color:aqua;
+   font-size: 200%;
+ }
+
+ #button{
+   border-radius: 75px;
+   margin-right: 5em;
+ }
+
+ 
+
+ #javascriptimg{
+  width: 20%;
+ }
+ #jstext{
+   margin-left: 20em;
+   margin-right: 20em;
+ }
+ #htmlcsstext{
+  margin-left: 20em;
+  margin-right: 20em;
+}
+#nodetext{
+  margin-left: 20em;
+  margin-right: 20em;
+}
+#projects{
+  font-size: 4em;
+  color:rgb(39, 46, 58)
+  
+}
+
+ #reactimg{
+  width: 20%;
+ }
+ #reacttext{
+  margin-left: 20em;
+  margin-right: 20em;
+ }
+#endtext{
+  color: aqua;
+  background-image: url('https://i.stack.imgur.com/yDr7J.jpg');
+}
+
+.about{
+  background-image: url("IMG_3471.jpeg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+#abouttext{
+  font-size:25px;
+  bottom: 100px; 
+  margin-left: 10em;
+  margin-right: 10em;
+  color: rgb(250, 252, 253);
+}
+
+.billpop:hover{
+  display:;
+}
+#decoder{
+  background-image: url('https://i.ebayimg.com/images/g/r8sAAOSwSeVaKD8z/s-l400.png');
+  float: left;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+  box-shadow: 5px 5px 20px black;
+  color: rgb(253, 250, 250);
+}
+#WeLoveMovies{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzWn6iySqI9n9cP5Mfck92B8zzeJzi3ttCgQ&usqp=CAU');
+  float: left;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+  box-shadow: 5px 5px 20px black;
+  color: rgb(156, 10, 10);
+}
+
+#restaurant{
+  background-image: url('https://i.pinimg.com/originals/61/a4/a4/61a4a4ccec276d39f2156b1058a31fca.jpg');
+  float: left;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 25px;
+  text-shadow: 1px 1px whitesmoke;
+  box-shadow: 5px 5px 20px black;
+  color: rgb(242, 240, 243);
+}
+ #pomodoro{
+   background-image: url('https://charuzu.files.wordpress.com/2012/03/images.jpg?w=840');
+   float: left;
+   margin: 20px;
+   height: 300px;
+   width: 300px;
+   border-radius: 50%;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 200px;
+   font-size: 25px;
+   text-shadow: 1px 1px whitesmoke;
+   box-shadow: 5px 5px 20px black;
+   color: rgb(242, 240, 243);
+ }
+#restaurant:hover,
+#WeLoveMovies:hover,
+#decoder:hover,
+#pomodoro:hover
+{
+  color: black;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+  border: 1px solid white;
+  box-shadow: 2px 2px grey;
+  -webkit-transition: ease-out .5s;
+  -moz-transition: ease-out .5s;
+  -o-transition: ease-out .5s;
+  transition: ease-out .5s;
+}
+
+#iframe{
+  margin: 20px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10%;
+}
+
 }
